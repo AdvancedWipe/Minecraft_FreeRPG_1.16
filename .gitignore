@@ -21,6 +21,12 @@ buildNumber.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 
+### Gradle
+.gradle/
+build/
+out/
+classes/
+
 ### Eclipse template
 .metadata
 bin/
