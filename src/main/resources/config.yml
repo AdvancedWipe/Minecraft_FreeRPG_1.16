@@ -17,6 +17,7 @@
 
 general:
   defaultLanguage: enUs #Choices: enUs, huHU, frFR, deDE, plPL, esCl, ruRU, ptBR, csCZ, koKR and custom
+  informationURL: https://github.com/AdvancedWipe/Minecraft_FreeRPG_1.16/wiki #Website that is provided to the player with more detailed information about the plugin, by default it links to the plugins wiki
   forceLanguage: false #Forces players to use the server's default langauge
 leveling:
   # This is a global maxLevel, but is overridden by skillName.maxLevel

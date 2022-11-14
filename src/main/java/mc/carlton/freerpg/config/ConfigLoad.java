@@ -30,6 +30,7 @@ public class ConfigLoad {
   static boolean saveRunTimeData;
   static boolean verboseRunTimeData;
   static int saveStatsTimer;
+  static String informationURL;
   static String defaultLanguage;
   static boolean allowExplosions;
   static boolean allowBuild;
@@ -98,6 +99,7 @@ public class ConfigLoad {
     String[] combatLabels = {"archery", "beastMastery", "swordsmanship", "defense", "axeMastery"};
 
     //General Config and Config that has no real category
+    informationURL = config.getString("general.informationURL");
     defaultLanguage = config.getString("general.defaultLanguage");
     //basePlayerHP = config.getDouble("general.playerBaseHP");
     forceLanguage = config.getBoolean("general.forceLanguage");
@@ -426,6 +428,8 @@ public class ConfigLoad {
   public String getDefaultLanguage() {
     return defaultLanguage;
   }
+
+  public String getInformationURL(){return informationURL;}
 
   public void setDefaultLanguage(String languageCode) {
     defaultLanguage = languageCode;

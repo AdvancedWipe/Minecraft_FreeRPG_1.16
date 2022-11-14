@@ -468,7 +468,7 @@ lang:
     commandDesc6: Displays a leaderboard for a specified stat
     commandDesc7: Provides a link to a plugin information page
     commandDesc8: Attempts to enchant an item in the users hand at a specified level
-    informationURL: Information URL (Google Docs)
+    informationURL: Plugin information
     click: CLICK
     levelArgument: Level argument must be less than 40
     leaderboard: Leaderboard

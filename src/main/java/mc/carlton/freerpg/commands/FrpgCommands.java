@@ -999,10 +999,11 @@ public class FrpgCommands implements CommandExecutor {
       }
       Player p = (Player) sender;
       LanguageSelector lang = new LanguageSelector(p);
+      ConfigLoad configLoad = new ConfigLoad();
       p.sendMessage(
           lang.getString("informationURL") + ": " + ChatColor.AQUA + ChatColor.UNDERLINE.toString()
-              + "shorturl.at/ptCDX" +
-              ChatColor.RESET + ChatColor.GOLD.toString() + ChatColor.BOLD.toString() + "<-- "
+              + configLoad.getInformationURL() +
+              ChatColor.RESET + ChatColor.GOLD.toString() + ChatColor.BOLD.toString() + " <-- "
               + lang.getString("click"));
     }
 
