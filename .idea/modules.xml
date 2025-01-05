@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FreeRPG_1.16.iml" filepath="$PROJECT_DIR$/FreeRPG_1.16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freerpg.iml" filepath="$PROJECT_DIR$/freerpg.iml" />
     </modules>
   </component>
 </project>

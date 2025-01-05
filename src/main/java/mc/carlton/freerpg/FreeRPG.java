@@ -95,6 +95,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
+
 public final class FreeRPG extends JavaPlugin implements Listener {
 
   private static Logger LOGGER = LogManager.getLogger(FreeRPG.class.getSimpleName());
